@@ -3,9 +3,8 @@
  * Created by PhpStorm.
  * User: root
  * Date: 12/8/15
- * Time: 6:20 PM
+ * Time: 6:57 PM
  */
-
-phpinfo();
+mysqli_close($db);
 
 ?>
