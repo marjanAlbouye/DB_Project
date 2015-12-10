@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="../css/q.css" type="text/css"/>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(window).load(function () {
+            $(".loading").delay(1000).fadeOut(1);
+        });
+    </script>
+
+</head>
+
+<body>
+
+<div class="loading">
+
+</div>
+
+<div class="container">
+
+    <form id="q">
+
+        <div class="header">
+            <h3>نام داوران بازی هایی که بازیکنی با نام مشخص در آنها بازی کرده است</h3>
+        </div>
+
+        <div class="sep"></div>
+
+        <div class="inputs">
+
+            <input type="text" placeholder="نام بازیکن" name="q3_player_name" id="q3_player_name" required="required"
+                   onfocus="this.placeholder = ''" onblur="this.placeholder ='نام بازیکن'"/>
+            <input type="button" id="button" name="send" value="جست و جو"/>
+
+            <input type="text" disabled="true" value="ردیف" name="index" class="index"/>
+
+            <input type="text" disabled="true" value="نام داور" name="referee_name" class="name"/>
+
+
+            <input type="text" disabled="true" value="1" name="out_index" class="out_index"/>
+
+            <input type="text" disabled="true" value="سعید" name="out_referee_name" class="out_name"/>
+
+            <input type="text" disabled="true" value="2" name="out_index" class="out_index"/>
+
+            <input type="text" disabled="true" value="نجفی" name="out_referee_name" class="out_name"/>
+
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+
+</html>
+​
